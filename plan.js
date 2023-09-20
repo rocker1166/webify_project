@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
     /* const name = localStorage.getItem('NAME');
     const surname = localStorage.getItem('SURNAME'); */
     
-    const name = sessionStorage.getItem('name');
+    const name = sessionStorage.getElementById('name');
     const surname = sessionStorage.getItem('SURNAME');
     
     document.getElementById('op').innerHTML = name;
