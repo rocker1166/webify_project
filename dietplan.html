@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <script src="/webify_project/plan.js"></script>
+  <script src="webify_project/plan.js"></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mr. Camel</title>
@@ -128,11 +128,11 @@
         <li><a href="#about">About</a></li>
       </ul>
       <br><br>
-      <p>"Do something important in life. I convert green grass to code."<br>- Suman</p>
+      <p id="op">"Do something important in life. I convert green grass to code."<br>- Suman</p>
     </aside>
     <main class="content">
       <h2>User Condition:</h2>
-      <p id="output"></p>
+      <p id="name-display"></p>
       <h2>My Career</h2>
       <p></p>
       <hr><br>
@@ -166,6 +166,10 @@
   </div>
 </body>
 <script src="https://kit.fontawesome.com/3b9e835b6e.js" crossorigin="anonymous"></script>
+<script>
+    var data = window.location.search;
+    document.getElementById("op").innerHTML = data;
+</script>
 
 
 
