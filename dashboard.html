@@ -70,12 +70,12 @@ a {
 
     
 </head>
-<body>
-    <form method="get" action="dietplan.html">
+<body >
+    <form style="background:"/webify_project/vegi.jpg">
         <div class="container">
-          <h1>Diet Buddy</h1>
-          <p>Please fill in this form to get your personalise diet plan</p>
-          <hr>
+         <center> <h1>Diet Buddy</h1>
+          <h1>Please fill in this form to get your personalise diet plan</h1>
+          <hr></center>
       
           <label for="name"><b>Full Name:</b></label>
           <input type="text" placeholder="name" name="email" id="name" required>
@@ -86,12 +86,12 @@ a {
           <label for="psw-repeat"><b>Current Height:</b></label>
           <input type="password" placeholder="height in cm" name="psw-repeat" id="height" required>
 
-          <label for="psw-repeat"><b>BMI:</b></label>
-          <input type="password" placeholder="auto calculate" name="psw-repeat" id="bmi" required>
-          <p>Underweight = <18.5
+          <label for="psw-repeat"><b>country</b></label>
+          <input type="password" placeholder="select country name to find the best diet according to your country:" name="psw-repeat" id="bmi" required>
+          <p>[Underweight = <18.5
             Normal weight = 18.5–24.9
             Overweight = 25–29.9
-            Obesity = BMI of 30 or greater</p>
+            Obesity = BMI of 30 or greater]</p>
             <label for="psw">
 
               <select for="psw" name="cars" id="sex">
@@ -103,7 +103,8 @@ a {
           <hr>
         
       
-         </a><button type="submit" class="registerbtn"><a href="/webify_project/dietplan.html">Find Your personalise Diet</a></button> 
+       
+        <center><button onclick="location.href = '/webify_project/dietplan.html';" id="myButton" class="float-left submit-button" >Find Your personalise Diet</button></center> 
         </div>
         
        
