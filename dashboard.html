@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Diet Plus</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+.bc{
+    color: crimson;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+
+
+    
+</head>
+<body>
+    <form action="/action_page.php">
+        <div class="container">
+         <center> <h1>Diet Buddy</h1>
+          <p>Please fill in this form to get your personalise diet plan</p>
+          <hr></center>
+      
+          <label for="name"><b>Full Name:</b></label>
+          <input type="text" placeholder="full name in cap later" name="email" id="email" required>
+      
+          <label for="psw"><b>Age:</b></label>
+          <input type="password" placeholder="current age in year" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Current Height:</b></label>
+          <input type="password" placeholder="height in cm" name="psw-repeat" id="psw-repeat" required>
+
+          <label for="psw-repeat"><b>BMI:</b></label>
+          <input type="password" placeholder="auto calculate" name="psw-repeat" id="psw-repeat" required>
+          <p class="bc">[Underweight = <18.5
+            Normal weight = 18.5–24.9
+            Overweight = 25–29.9
+            Obesity = BMI of 30 or greater]</p>
+            <label for="psw">SEX
+
+              <select for="psw" name="cars" id="cars">
+              <option for="for" value="volvo">MALE</option>
+              <option value="saab">FEMALE</option>
+               <option value="mercedes">OTHER</option>
+            </select> 
+            </label>
+          <hr>
+        
+      
+          <button type="submit" class="registerbtn">Find Perfect Diet</button>
+        </div>
+        
+       
+     
+    </form> 
+    
+</body>
+<script src="/webify_project/main.js"></script>
+</html>
